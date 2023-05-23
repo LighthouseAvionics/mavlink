@@ -6,7 +6,7 @@
   <!-- use minimal.xml enums -->
   <enums/>
   <!-- use minimal.xml messages -->
-  <messages/>
+  <messages>
     <message id="4621" name="PMU_DATA">
       <description>Offsets and calibrations values for hardware sensors. This makes it easier to debug the calibration process.</description>
       <field type="int16_t" name="batt1_cell1">Battery 1 Cell 1 Voltage.</field>
@@ -30,4 +30,5 @@
       <field type="int16_t" name="current_offset">Current Offset.</field>
       <field type="int8_t" name="system_state">System State.</field>
     </message>
+  </messages>
 </mavlink>
